@@ -1,0 +1,144 @@
+/* ================= GLOBAL RESET ================= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ================= BODY STYLING ================= */
+body {
+    background-color: #f4f4f4;
+}
+
+/* ================= NAVBAR STYLING ================= */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background-color: #1e1e2f;
+}
+
+/* Logo Styling */
+.logo {
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* Navigation Links */
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 25px;
+}
+
+/* Link Styling */
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+/* Hover Effect */
+.nav-links a:hover {
+    color: #00bcd4;
+}
+
+/* ================= HERO SECTION ================= */
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: linear-gradient(135deg, #4facfe, #00f2fe);
+    color: white;
+}
+
+/* Hero Heading */
+.hero h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+/* Hero Paragraph */
+.hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* Hero Button */
+.hero button {
+    padding: 10px 20px;
+    border: none;
+    background-color: white;
+    color: #333;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+/* Button Hover */
+.hero button:hover {
+    background-color: #333;
+    color: white;
+}
+
+/* ================= CARDS SECTION ================= */
+.cards-section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+/* Section Title */
+.cards-section h2 {
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+
+/* Cards Container */
+.cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+/* Single Card */
+.card {
+    background: white;
+    padding: 30px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+/* Card Hover Effect */
+.card:hover {
+    transform: translateY(-10px);
+}
+
+/* ================= IMAGE SECTION ================= */
+.image-section {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+/* Image Styling */
+.image-section img {
+    max-width: 90%;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+/* ================= FOOTER ================= */
+.footer {
+    background-color: #1e1e2f;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
